@@ -10,3 +10,14 @@ export class CreateUserValidate {
   @IsNumberString()
   age: number;
 }
+
+export class updateUserValidate {
+  @IsString()
+  name: string;
+
+  // @IsEmail()
+  // email: string;
+
+  @IsNumberString()
+  age: number;
+}
